@@ -11,10 +11,10 @@ public class Demo {
 Demo d = new Demo();
 d.Id=1;
 d.Name="Rahul";
-d.roll_no=116;
+d.roll_no=110;
 System.out.println(d.Id);
 System.out.println(d.Name);
-System.out.println(d.roll_no);
+
 
 	}
 
