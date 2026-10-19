@@ -1,0 +1,17 @@
+class Solution {
+    public int[] plusOne(int[] digits) {
+        int n =digits.length;
+        int[] ans= new int[n+1];
+        int i = n-1;
+        int carry = 1 ; 
+        int k = n;
+         while(i>=0 || carry>0){
+            int sum = carry ;
+            if(i>=0) sum +=digits[i--];
+            ans[k--]=sum%10;
+            carry =sum/10;
+         }
+         if(ans[0]==1) return ans;
+         return Arrays.copyOfRange(ans,1,n+1);
+    }
+}
