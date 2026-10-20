@@ -15,7 +15,6 @@ public class Geeks {
                 System.out.print(j + " ");
             }
 
-  
             System.out.println();
         }
     }
