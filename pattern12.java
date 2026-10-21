@@ -24,7 +24,6 @@ public class pattern12
             System.out.println();
         }
  
-        //Close the resources
  
         sc.close();
     }
