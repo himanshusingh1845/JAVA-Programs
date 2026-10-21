@@ -21,8 +21,9 @@ public class Geeks {
 
             System.out.println();
         }
-    }
 
+
+    }
     public static void main(String args[])
     {
         int n = 6;
