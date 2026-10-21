@@ -9,5 +9,6 @@ public class Factorial{
 		} 
 		System.out.println("Factorial is:"+fact);
 }
+	
 
 }
