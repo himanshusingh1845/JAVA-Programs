@@ -1,0 +1,29 @@
+import java.util.*;
+
+class Solution {
+    public List<Integer> selfDividingNumbers(int left, int right) {
+        List<Integer> result = new ArrayList<>();
+
+        for (int num = left; num <= right; num++) {
+            int n = num;
+            boolean selfDividing = true;
+
+            while (n > 0) {
+                int digit = n % 10;
+
+                if (digit == 0 || num % digit != 0) {
+                    selfDividing = false;
+                    break;
+                }
+
+                n /= 10;
+            }
+
+            if (selfDividing) {
+                result.add(num);
+            }
+        }
+
+        return result;
+    }
+}
