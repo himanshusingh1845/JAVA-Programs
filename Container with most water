@@ -9,7 +9,6 @@ class Solution {
             int currentHeight = Math.min(height[left], height[right]);
             int currentWidth = right - left;
             int currentArea = currentHeight * currentWidth;
-            
         
             maxWater = Math.max(maxWater, currentArea);
             
