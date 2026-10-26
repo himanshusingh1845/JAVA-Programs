@@ -1,3 +1,34 @@
+// Problem Statement
+
+Hercy wants to save money in a bank for n days.
+
+On the first Monday, he deposits $1.
+
+Each following day of the same week, he deposits $1 more than the previous day.
+
+Every new Monday, he deposits $1 more than the previous Monday.
+
+Return the total amount of money deposited after n days.
+
+Approach: Using a Loop
+
+Initialize total = 0 to store the total money.
+
+Initialize monday = 1 for Monday's deposit in the current week.
+
+Loop through all n days.
+
+Add monday + (i % 7) to total, where i % 7 represents the number of days since Monday.
+
+Whenever i % 7 == 6, the week ends, so increase monday by 1.
+
+Return total.//
+
+
+
+
+
+
 
 class Solution {
     public int totalMoney(int n) {
