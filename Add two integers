@@ -1,3 +1,22 @@
+// Problem Statement
+
+Given two integers num1 and num2, return their sum.
+
+Approach: Direct Addition
+
+Accept two integer parameters: num1 and num2.
+
+Use the + operator to add them.
+
+Return the result.//
+
+
+
+
+
+
+
+
 
 class Solution {
     public int sum(int num1, int num2) {
