@@ -1,3 +1,34 @@
+// Problem Statement
+
+Given the root of a binary tree, return the inorder traversal of its nodes' values.
+
+Inorder traversal follows the Left → Root → Right (LNR) order.
+
+Approach: Iterative Inorder Traversal Using a Stack
+
+Create an empty result list and a stack.
+
+Start from the root node.
+
+Push the current node onto the stack and move left until no left node remains.
+
+Pop a node from the stack and add its value to the result.
+
+Move to its right child and repeat until the current node is null and the stack is empty.
+
+Return the result list.//
+
+
+
+
+
+
+
+
+
+
+
+
 
 import java.util.*;
 
