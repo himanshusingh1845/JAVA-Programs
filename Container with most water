@@ -1,3 +1,32 @@
+// Problem Statement
+
+You are given an integer array height of length n. Each element represents the height of a vertical line.
+
+Find two lines that, together with the x-axis, form a container that holds the maximum amount of water.
+
+Return the maximum amount of water the container can store.
+Approach: Two-Pointer Technique
+
+Initialize left at the beginning and right at the end of the array.
+
+Calculate the container's height using the smaller of the two heights.
+
+Calculate the width using right - left.
+
+Calculate the current area and update maxWater if the area is larger.
+
+Move the pointer with the smaller height inward because the shorter line limits the water capacity.
+
+Repeat until both pointers meet.
+
+
+
+
+
+
+
+
+
 class Solution {
     public int maxArea(int[] height) {
         int left = 0;
