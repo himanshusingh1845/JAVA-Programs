@@ -1,3 +1,29 @@
+// Problem Statement
+
+Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
+
+Approach: Repeated Digit Sum
+
+Run a loop while num >= 10, because we need to continue until only one digit remains.
+
+Initialize sum = 0.
+
+Extract each digit using num % 10 and add it to sum.
+
+Remove the last digit using num /= 10.
+
+Assign sum back to num and repeat.
+
+Return num when it becomes a single digit.//
+
+
+
+
+
+
+
+
+
 class Solution {
     public int addDigits(int num) {
         while (num >= 10) {
