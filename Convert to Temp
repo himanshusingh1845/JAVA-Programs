@@ -1,3 +1,27 @@
+// Problem Statement
+
+You are given a non-negative floating-point number celsius, representing a temperature in Celsius.
+
+Convert it into:
+
+Kelvin
+
+Fahrenheit
+
+Return an array ans of size 2, where ans[0] is the temperature in Kelvin and ans[1] is the temperature in Fahrenheit.
+Approach: Mathematical Formulas
+
+Use the standard temperature conversion formulas:
+
+Celsius to Kelvin: Kelvin = Celsius + 273.15
+
+Celsius to Fahrenheit: Fahrenheit = Celsius × 1.80 + 32.00
+
+Store both converted values in a double array and return it in the required order.//
+
+
+
+
 
 class Solution {
     public double[] convertTemperature(double celsius) {
