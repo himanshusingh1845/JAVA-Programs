@@ -1,0 +1,28 @@
+class Solution {
+    public void conquer(int arr[],int l,int mid,int r){
+        int[] poki=new int[r-l+1];
+        int i=l;
+        int j=mid+1;
+        int k=0;
+        
+        while(i<=mid && j<=r){
+            if(arr[i]<arr[j]) poki[k]=arr[i++];
+            else poki[k]=arr[j++];
+            k++;
+        }
+        while(i<=mid) poki[k++]=arr[i++];
+        while(j<=r) poki[k++]=arr[j++];
+        
+        for(int x=0;x<poki.length;x++){
+            arr[l+x]=poki[x];
+        }
+    }
+    public void mergeSort(int arr[], int l, int r) {
+        // code here
+        if(l>=r) return;
+        int mid=(l+r)/2;
+        mergeSort(arr,l,mid);
+        mergeSort(arr,mid+1,r);
+        conquer(arr,l,mid,r);
+    }
+}
