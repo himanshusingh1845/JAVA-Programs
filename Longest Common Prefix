@@ -1,3 +1,25 @@
+//Approach
+
+Assume the first string is the longest common prefix.
+
+Traverse the remaining strings one by one.
+
+Check whether each string starts with the current prefix using startsWith().
+
+If it does not, remove the last character of the prefix using substring().
+
+Repeat until a common prefix is found or the prefix becomes empty.
+
+Return the final prefix.//
+
+
+
+
+
+
+
+
+
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         String prefix = strs[0];
