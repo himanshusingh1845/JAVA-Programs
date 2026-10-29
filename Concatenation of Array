@@ -1,3 +1,39 @@
+Approach
+
+Find the length of nums and store it in n.
+
+Create a new array ans of size 2 * n.
+
+Iterate through nums using a loop.
+
+Copy each element into two positions:
+
+ans[i] = nums[i]
+
+ans[i + n] = nums[i]
+
+Return ans.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int n = nums.length;
