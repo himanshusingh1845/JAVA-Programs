@@ -1,3 +1,22 @@
+
+Problem Statement
+
+You are given an m x n integer grid accounts, where accounts[i][j] represents the amount of money the ith customer has in the jth bank.
+
+A customer's wealth is the sum of money in all their bank accounts.
+
+Return the maximum wealth among all customers.
+
+
+
+
+
+
+
+
+
+
+
 class Solution {
     public int maximumWealth(int[][] accounts) {
         int maxWealth = 0;
