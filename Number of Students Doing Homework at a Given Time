@@ -1,3 +1,37 @@
+
+Approach: Linear Traversal
+
+Initialize count = 0.
+
+Iterate through each student using an index i.
+
+Check whether queryTime is greater than or equal to startTime[i] and less than or equal to endTime[i].
+
+If both conditions are true, increment count.
+
+Return count.
+
+The interval is inclusive, so students starting or finishing exactly at queryTime are counted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Solution {
     public int busyStudent(int[] startTime, int[] endTime, int queryTime) {
         int count = 0;
