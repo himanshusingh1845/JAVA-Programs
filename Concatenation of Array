@@ -6,8 +6,8 @@ Create a new array ans of size 2 * n.
 
 Iterate through nums using a loop.
 
-Copy each element into two positions:
-
+Copy each element into two positions::--
+     
 ans[i] = nums[i]
 
 ans[i + n] = nums[i]
