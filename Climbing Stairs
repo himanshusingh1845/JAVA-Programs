@@ -5,7 +5,7 @@ You are climbing a staircase with n steps. Each time, you can climb either 1 ste
 
 Return the number of distinct ways to reach the top of the staircase.
 
-LeetCode: Climbing Stairs
+LeetCode: Climbing Stairs...
 Instead of storing all previous results in an array, we use only two variables: first and second.Approach: Dynamic Programming (Space Optimized)
 
 The number of ways to climb n stairs follows the Fibonacci sequence.
