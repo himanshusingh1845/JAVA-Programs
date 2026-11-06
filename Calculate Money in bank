@@ -22,11 +22,7 @@ Add monday + (i % 7) to total, where i % 7 represents the number of days since M
 
 Whenever i % 7 == 6, the week ends, so increase monday by 1.
 
-Return total.//
-
-
-
-
+Return total
 
 
 
