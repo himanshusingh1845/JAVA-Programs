@@ -12,6 +12,9 @@ Return the total amount of money deposited after n days.
 
 Approach: Using a Loop
 
+
+
+
 Initialize total = 0 to store the total money.
 
 Initialize monday = 1 for Monday's deposit in the current week.
