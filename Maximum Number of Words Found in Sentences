@@ -6,6 +6,7 @@ Traverse each sentence using an enhanced for loop.
 
 Split each sentence using a single space (" ").
 
+
 Count the words using .length.
 
 Update maxWords if the current sentence contains more words.
