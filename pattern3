@@ -7,6 +7,7 @@ public class Geeks {
         int i, j;
 
    //outer rows //
+
         for (i = n; i >= 1; i--) {
 
         
