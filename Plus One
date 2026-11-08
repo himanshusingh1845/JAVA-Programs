@@ -6,7 +6,9 @@ class Solution {
         int carry = 1 ; 
         int k = n;
          while(i>=0 || carry>0){
+
             int sum = carry ;
+
             if(i>=0) sum +=digits[i--];
             ans[k--]=sum%10;
             carry =sum/10;
