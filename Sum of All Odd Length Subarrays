@@ -9,6 +9,7 @@ class Solution {
 
 
 
+
                 if ((j - i + 1) % 2 == 1) {
                     for (int k = i; k <= j; k++) {
                         sum += arr[k];
