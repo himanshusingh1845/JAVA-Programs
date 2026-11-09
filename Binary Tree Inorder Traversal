@@ -12,6 +12,7 @@ Create an empty result list and a stack.
 
 Start from the root node.
 
+
 Push the current node onto the stack and move left until no left node remains.
 
 Pop a node from the stack and add its value to the result.
