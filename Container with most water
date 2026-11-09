@@ -11,6 +11,7 @@ Initialize left at the beginning and right at the end of the array.
 
 Calculate the container's height using the smaller of the two heights.
 
+
 Calculate the width using right - left.
 
 Calculate the current area and update maxWater if the area is larger.
