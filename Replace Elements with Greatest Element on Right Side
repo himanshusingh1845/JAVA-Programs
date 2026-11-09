@@ -6,9 +6,6 @@ class Solution {
             int current = arr[i];
             arr[i] = max;
             max = Math.max(max, current);
-
-
-
         }
 
         return arr;
