@@ -10,7 +10,8 @@ class Solution {
 
 
         return result;
-    }
+    }\
+
 }
 
 // Problem Statement
