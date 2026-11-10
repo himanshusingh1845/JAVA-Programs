@@ -14,27 +14,7 @@ ans[i] = nums[i]
 
 ans[i + n] = nums[i]
 
-Return ans.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Return ans 
 
 class Solution {
     public int[] getConcatenation(int[] nums) {
