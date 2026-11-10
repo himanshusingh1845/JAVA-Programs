@@ -17,9 +17,7 @@ Celsius to Kelvin: Kelvin = Celsius + 273.15
 
 Celsius to Fahrenheit: Fahrenheit = Celsius × 1.80 + 32.00
 
-Store both converted values in a double array and return it in the required order.//
-
-
+Store both converted values in a double array and return it in the required order./
 
 
 
