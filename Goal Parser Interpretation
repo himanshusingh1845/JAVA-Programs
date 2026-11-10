@@ -3,7 +3,7 @@ class Solution {
 
 
 
-        return command.replace("()", "o")
+ return command.replace("()", "o")
                       .replace("(al)", "al");
     }
 }
