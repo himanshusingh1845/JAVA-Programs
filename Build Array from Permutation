@@ -10,6 +10,10 @@ Store that value in ans[i] using ans[i] = nums[nums[i]].
 
 Return the ans array.
 
+
+
+
+
 class Solution {
     publicint[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
