@@ -1,5 +1,9 @@
 Approach: Array Traversal
 
+
+
+
+
 Create a new array ans with the same length as nums.
 
 Iterate through every index i in nums.
