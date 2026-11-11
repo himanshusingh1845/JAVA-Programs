@@ -7,7 +7,8 @@ public class Demo {
     int roll_no;
 
 	public static void main(String[] args) {
-	
+
+		
 Demo d = new Demo();
 d.Id=1;
 d.Name="Rahul";
