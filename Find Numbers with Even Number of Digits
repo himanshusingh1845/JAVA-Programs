@@ -5,6 +5,10 @@ class Solution {
         for (int num : nums) {
             int digits = 0;
 
+
+
+
+
             while (num > 0) {
                 digits++;
                 num /= 10;
