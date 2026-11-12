@@ -8,6 +8,9 @@ A number is a power of two if it can be expressed as (2^x), where x is a non-neg
 Approach: Repeated Division
 
 
+
+
+
 If n <= 0, return false, because powers of two are positive.
 
 While n is divisible by 2, divide it by 2.
