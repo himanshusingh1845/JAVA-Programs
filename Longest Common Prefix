@@ -15,6 +15,9 @@ Repeat until a common prefix is found or the prefix becomes empty.
 Return the final prefix.//
 
 
+
+
+
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         String prefix = strs[0];
