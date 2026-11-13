@@ -9,6 +9,8 @@ class Solution {
         }
 
 
+
+
         // Count characters in the last word
         while (i >= 0 && s.charAt(i) != ' ') {
             count++;
