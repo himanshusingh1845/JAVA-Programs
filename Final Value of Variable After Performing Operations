@@ -15,6 +15,9 @@ Both prefix and postfix operations have the same effect on the final value, so t
 
 
 
+
+
+
 class Solution {
     public int finalValueAfterOperations(String[] operations) {
         int x = 0;
