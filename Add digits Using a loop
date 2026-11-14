@@ -20,6 +20,8 @@ Assign sum back to num and repeat.
 Return num when it becomes a single digit.//
 
 class Solution {
+
+
     public int addDigits(int num) {
         while (num >= 10) {
             int sum = 0;
