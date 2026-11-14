@@ -2,6 +2,8 @@ Approach: Linear Traversal
 
 Initialize the variable x = 0.
 
+
+
 Iterate through every operation in the array.
 
 If the operation contains "+", increment x by 1.
