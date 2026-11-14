@@ -4,6 +4,9 @@ Initialize maxWords to 0.
 
 Traverse each sentence using an enhanced for loop.
 
+
+
+
 Split each sentence using a single space (" ").
 
 
