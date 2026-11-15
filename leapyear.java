@@ -1,5 +1,3 @@
-
-
 package todo;
 
 public class leapyear {
