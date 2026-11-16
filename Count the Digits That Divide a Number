@@ -1,6 +1,4 @@
 class Solution {
-
-
     public int countDigits(int num) {
         int n = num;
         int count = 0;
