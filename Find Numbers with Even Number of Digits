@@ -7,6 +7,8 @@ class Solution {
             int digits = 0;
 
             while (num > 0) {
+
+
                 digits++;
                 num /= 10;
 
