@@ -10,8 +10,6 @@ class Solution {
 
         int leftSum = 0;
 
-
-
         int[] answer = new int[n];
 
 
