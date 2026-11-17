@@ -8,6 +8,7 @@ class Solution {
             total += newBottles;
 
             empty = empty % numExchange + newBottles;
+
         }
 
         return total;
