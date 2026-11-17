@@ -1,5 +1,8 @@
 Approach
 
+
+
+
 Find the length of nums and store it in n.
 
 Create a new array ans of size 2 * n.
