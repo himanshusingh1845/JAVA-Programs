@@ -13,6 +13,8 @@ public class Geeks {
                 System.out.print("*");
             }
 
+
+
             System.out.println();
         }
     }
