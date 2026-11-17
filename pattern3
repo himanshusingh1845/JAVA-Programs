@@ -1,5 +1,7 @@
 import java.util.*;
 
+
+
 public class Geeks {
     
     public static void printPattern(int n)
