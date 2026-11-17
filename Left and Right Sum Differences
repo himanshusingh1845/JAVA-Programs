@@ -3,6 +3,9 @@ class Solution {
         int n = nums.length;
         int total = 0;
 
+
+
+
         for (int num : nums) {
             total += num;
 
