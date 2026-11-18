@@ -4,6 +4,7 @@ class Solution {
         String result="";
 
         char temp='.';
+
         for(int i=0;i<address.length();i++){
 
             if(temp==address.charAt(i)){
