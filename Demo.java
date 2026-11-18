@@ -5,9 +5,7 @@ public class Demo {
 	int Id;
     String Name;
     int roll_no;
-
 	
-
 	public static void main(String[] args) {
 
 		
