@@ -14,6 +14,9 @@ d.Id=1;
 d.Name="Rahul";
 d.roll_no=110;
 System.out.println(d.Id);
+
+
+		
 System.out.println(d.Name);
 	}
 
