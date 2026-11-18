@@ -1,6 +1,7 @@
 // Readme explaination 
 Problem Statement
 
+
 Given an integer n, return true if it is a power of two. Otherwise, return false.
 
 A number is a power of two if it can be expressed as (2^x), where x is a non-negative integer.
@@ -32,3 +33,29 @@ class Solution {
         return n == 1;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
