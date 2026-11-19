@@ -4,6 +4,7 @@ class Solution {
         int empty = numBottles;
 
         while (empty >= numExchange) {
+
             int newBottles = empty / numExchange;
             total += newBottles;
 
