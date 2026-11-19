@@ -8,6 +8,8 @@ class Solution {
             int n = num;
             boolean selfDividing = true;
 
+
+
             while (n > 0) {
                 int digit = n % 10;
 
