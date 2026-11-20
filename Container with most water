@@ -9,16 +9,6 @@ Approach: Two-Pointer Technique
 
 Initialize left at the beginning and right at the end of the array.
 
-
-
-
-
-
-
-
-
-
-
 Calculate the container's height using the smaller of the two heights.
 
 
