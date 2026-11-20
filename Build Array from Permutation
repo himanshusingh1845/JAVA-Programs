@@ -1,9 +1,5 @@
 Approach: Array Traversal
 
-
-
-
-
 Create a new array ans with the same length as nums.
 
 Iterate through every index i in nums.
@@ -12,13 +8,7 @@ Use nums[i] as an index to access another element in nums.
 
 Store that value in ans[i] using ans[i] = nums[nums[i]].
 
-
-
-
-
 Return the ans array.
-
-
 
 
 class Solution {
