@@ -7,7 +7,7 @@ public class Geeks {
         int i, j;
         int num = 1;
         
-//outer function
+   //outer function
 
         for (i = 1; i <= n; i++) {
 
