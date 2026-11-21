@@ -13,25 +13,6 @@ Return count.
 
 The interval is inclusive, so students starting or finishing exactly at queryTime are counted.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Solution {
     public int busyStudent(int[] startTime, int[] endTime, int queryTime) {
         int count = 0;
