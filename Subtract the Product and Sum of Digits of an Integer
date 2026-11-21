@@ -12,8 +12,6 @@ class Solution {
             sum += digit;
             product *= digit;
 
-
-
             n /= 10;
         }
 
