@@ -11,9 +11,6 @@ public class NumberPatternPrograms
 		
 		System.out.println("How many rows you want in this pattern?");
 
-
-
-
 		
 		int rows = sc.nextInt();
 
