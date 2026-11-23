@@ -9,6 +9,10 @@ Inorder traversal follows the Left → Root → Right (LNR) order.
 Approach: Iterative Inorder Traversal Using a Stack
 
 
+
+
+
+
 Create an empty result list and a stack.
 
 
