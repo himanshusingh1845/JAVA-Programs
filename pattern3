@@ -5,10 +5,12 @@ public class Geeks {
 
 
     public static void printPattern(int n)
+
     {
         int i, j;
 
    //outer rows //
+
 
         for (i = n; i >= 1; i--) {
 
@@ -38,3 +40,4 @@ public class Geeks {
         printPattern(n);
     }
 }
+
