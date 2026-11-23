@@ -17,9 +17,8 @@ class Solution {
 }
 
 
-
-
 // Given a non-empty integer array nums, every element appears twice except for one element.
+
 
 Find and return the element that appears only once.
 
