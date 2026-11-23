@@ -1,6 +1,8 @@
 class Solution {
     public int[] leftRightDifference(int[] nums) {
+
         int n = nums.length;
+
         int total = 0;
 
 
