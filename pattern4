@@ -4,6 +4,8 @@ public class Geeks {
     
     public static void printPattern(int n)
     {
+
+
         int i, j;
         int num = 1;
         
