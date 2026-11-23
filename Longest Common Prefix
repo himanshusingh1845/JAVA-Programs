@@ -11,20 +11,26 @@ If it does not, remove the last character of the prefix using substring().
 
 Repeat until a common prefix is found or the prefix becomes empty.
 
+
 Return the final prefix.//
 
 
 class Solution {
+
     public String longestCommonPrefix(String[] strs) {
+
         String prefix = strs[0];
 
         for (int i = 1; i < strs.length; i++) {
 
 
             while (!strs[i].startsWith(prefix)) {
+
                 prefix = prefix.substring(0, prefix.length() - 1);
 
+
                 if (prefix.isEmpty()) {
+
                     return "";
                 }
             }
