@@ -9,6 +9,7 @@ public class Geeks {
         for (i = n; i >= 1; i--) {
          
             for (j = 1; j <= i; j++) {
+
                 System.out.print(j + " ");
             }
 
@@ -18,7 +19,9 @@ public class Geeks {
 
     public static void main(String args[])
     {
+
         int n = 6;
         printPattern(n);
     }
 }
+
