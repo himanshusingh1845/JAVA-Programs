@@ -6,9 +6,6 @@ class Solution {
 
             return false;
         }
-
-
-
         int original = x;
 
         int reversed = 0;
