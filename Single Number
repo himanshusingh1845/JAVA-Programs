@@ -5,11 +5,6 @@ class Solution {
 
         for (int num : nums) {
             result ^= num;
-
-
-
-
-
         }
 
         return result;
@@ -18,8 +13,6 @@ class Solution {
 
 
 // Given a non-empty integer array nums, every element appears twice except for one element.
-
-
 Find and return the element that appears only once.
 
 Requirement: The solution must have linear time complexity and constant extra space.//
