@@ -7,9 +7,7 @@ public class NumberPatternPrograms
 		Scanner sc = new Scanner(System.in);
 
 		//Taking rows value from the user
-
-		
-		System.out.println("How many rows you want in this pattern?");
+System.out.println("How many rows you want in this pattern?");
 
 		
 		int rows = sc.nextInt();
